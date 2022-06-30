@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import LandingPage from "./chapter_09/LandingPage";
+import Blocks from "./chapter_15/Blocks";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<LandingPage />);
+root.render(<Blocks />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
